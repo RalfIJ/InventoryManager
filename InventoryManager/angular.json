@@ -67,7 +67,8 @@
               "browserTarget": "InventoryManager:build:production"
             },
             "development": {
-              "browserTarget": "InventoryManager:build:development"
+              "browserTarget": "InventoryManager:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

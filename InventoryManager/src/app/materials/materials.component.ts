@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './materials.component.html'
 })
 export class MaterialsComponent implements OnInit {
-
+  public materials?: any;
   constructor() { }
 
   ngOnInit(): void {

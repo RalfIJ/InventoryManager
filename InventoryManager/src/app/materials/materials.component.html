@@ -1,3 +1,13 @@
 <section>
-  <app-menu title="materials"></app-menu>
+  <section>
+    <app-menu title="materials"></app-menu>
+  </section>
+  <section *ngIf="materials; else noMaterialsFound">
+    <app-table [items]=materials></app-table>
+  </section>
+  <ng-template #noMaterialsFound>
+    <section class="text-center">
+      <h3>No materials could be found.</h3>
+    </section>
+  </ng-template>
 </section>

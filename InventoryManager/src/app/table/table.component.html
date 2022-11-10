@@ -1,0 +1,14 @@
+<table class="table-auto w-full text-left">
+  <thead class="border-b">
+  <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of items">
+    <td class="border-b">{{item.name}}</td>
+    <td class="border-b">{{item.quantity}}</td>
+  </tr>
+  </tbody>
+</table>
