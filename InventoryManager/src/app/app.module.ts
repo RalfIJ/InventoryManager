@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { MaterialsMenuComponent } from './materials-menu/materials-menu.component';
-import { ProductsMenuComponent } from './products-menu/products-menu.component';
+import { MenuComponent } from './menu/menu.component';
+import { ProductsComponent } from './products/products.component';
+import { MaterialsComponent } from './materials/materials.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    MaterialsMenuComponent,
-    ProductsMenuComponent
+    MenuComponent,
+    ProductsComponent,
+    MaterialsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,23 @@
-<section class="h-screen w-72 bg-white border-r-2 border-r-slate-300 flex flex-col p-10 text-center">
+<section
+  class="h-screen w-72 bg-slate-100 border-r-2 border-r-slate-200 flex flex-col p-10 text-center"
+>
   <header class="font-bold text-emerald-800 text-4xl">Inventory Manager</header>
-  <ul class="flex flex-col mt-24 text-3xl font-medium text-teal-600 gap-4 text-opacity-25">
-    <li class="">
-      <a class="text-opacity-25 hover:text-opacity-50\
-      " routerLink="materials">Materials</a>
+  <ul class="flex flex-col mt-24 text-3xl font-medium gap-4 text-teal-600">
+    <li
+      class="text-teal-600 hover:text-opacity-50 text-opacity-30 transition ease-in-out duration-500"
+    >
+      <a
+        routerLinkActive="text-teal-600 text-opacity-100"
+        routerLink="materials"
+        >Materials</a
+      >
     </li>
-    <li>
-      <a class="hover:text-opacity-75" routerLink="products">Products</a>
+    <li
+      class="text-teal-600 hover:text-opacity-50 text-opacity-30 transition ease-in-out duration-500"
+    >
+      <a routerLinkActive="text-teal-600 text-opacity-100" routerLink="products"
+        >Products</a
+      >
     </li>
   </ul>
 </section>
